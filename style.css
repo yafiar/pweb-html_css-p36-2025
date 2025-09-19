@@ -34,7 +34,6 @@ body {
   border-radius: 10px;
   overflow: hidden;
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-  cursor: pointer;
 }
 
 .portfolio-box .content {
@@ -46,7 +45,6 @@ body {
   aspect-ratio: 1 / 1;   
   object-fit: cover;     
   border-radius: 8px;    
-  display: block;
   margin: 10px auto;     
 }
 
@@ -54,13 +52,11 @@ body {
   font-size: 1.1rem;
   padding: 10px;
   border-bottom: 1px solid #eee;
-  transition: opacity 0.3s ease;
 }
 
 .portfolio-box .description {
   position: absolute;
   inset: 0;
-  padding: 20px;
   background: rgba(0,0,0,0.8);
   color: #fff;
   font-size: 1rem;
