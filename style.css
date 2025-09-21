@@ -88,7 +88,6 @@ p.subtitle {
 
 .btn {
     background-color: #2d77f7;
-    border: none;
     border-radius: 15px;
     padding: 10px 22px;
     color: white;
@@ -168,17 +167,14 @@ p.description {
     inset: 0;
     background: rgba(0, 0, 0, 0.8);
     color: #fff;
-    font-size: 0.9rem;
+    font-size: 1rem;
     display: flex;
-    justify-content: center;
     align-items: center;
     opacity: 0;
     transition: opacity 0.4s ease;
     border-radius: 10px;
     text-align: center;
     padding: 20px;
-    font-weight: 500;
-    line-height: 1.4;
 }
 
 .portfolio-box:hover .description {
